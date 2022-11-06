@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale 1.0">
+    <title>THESIS</title>
+        <link rel="stylesheet" href="style1.css">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+
+            <nav>
+                <a href="index.html"><img src="Images/logo.jpeg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">CONTACT US</a></li>
+            </ul>
+            </div>
+            <i class="fa fa-bars" onclick= "showMenu()"></i>
+        </nav>
+
+        
+        <div class="text-box">
+            <h1>ICC BALAYAN<br>Document Request</h1>
+            <p>
+               <b> This is the official website of the Immaculate Conception College (ICC) Office of the Registrar,<br> the custodian of academic records of students. It is responsible for maintaining the integrity<br> of the records under its care, making them available upon request.</b>
+            </p>
+        <a href="front.html" class="hero-btn">REQUEST NOW</a>
+            
+         </div>
+
+<!------JAVASCRIPTS------->
+
+        </section>
+        
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+             }
+            function hideMenu(){
+                    navLinks.style.right = "-200px";
+             }
+            
+        </script>
+    </body>
+    
+
+</html>
