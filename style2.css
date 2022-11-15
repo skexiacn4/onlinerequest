@@ -108,7 +108,7 @@ nav img{
  }
  
 
-@media(max-width: 800px) {
+@media(max-width: 700px) {
 
     .text-box h1{
         font-size: 20px;
@@ -266,5 +266,130 @@ table td {
     width: 13%;
     border-radius: 20px;
     margin: 20px 0 0 85%;
+
+}
+
+@media(max-width: 700px) {
+
+      
+.table_responsive {
+    max-width: 900px;
+    width: 100%;
+    background-color: #fff;
+    padding: 50px;
+    overflow: auto;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgb(0,0,0,.2);
+}
+
+
+table {
+    width: 100%;
+    font-size: 13px;
+    color:#000;
+    white-space:nowrap;
+    border-collapse: collapse;
+    padding: 10px;
+    font-family: sans-serif;
+}
+table>thead {
+    background-color: #ebecf0;
+    color: #000;
+}
+
+table>thead th {
+    padding: 10px;
+}
+
+table th, 
+table td {
+       border: 1px solid #00000017;
+       padding: 10px 15px;
+       text-align: center;
+}
+.row input 
+{
+      width: 100%;
+      margin-top: 1px;
+}
+
+.table input[type='number']{
+    width: 35px;
+    margin: auto;
+    display: flex;
+    border: none;
+}
+
+.wrapper{
+    max-width: 950%;
+    width: 100%;
+    margin: 30px auto 0;
+    padding: 10x;
+
+}
+
+.form-container {
+    background: #f8f9f9;
+    padding: 30px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.Heading {
+    background: #38b0de;
+    margin: -30px;
+    color: #fff;
+    text-align: left;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 10px;
+    margin-bottom: 35px;
+    
+}
+
+.form-item{
+    
+    margin-bottom: 25px;
+}
+
+
+.fullname .form-item,
+.select-box .form-item {
+   
+      width: 100%;
+      font-size: 15px;
+      font-family: sans-serif;
+}
+
+.fullname .form-item:first-child,
+.select-box .form-item:first-child{
+    margin-right: 4%;
+}
+
+.form-item input[type="text"],
+.form-item select{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-item input[type="text"]:focus{
+    border-color: #f8f9f9;
+}
+
+.btn button[type="submit"]{
+    background: #ccc;
+    border: 1px solid #f8f9f9;
+    padding: 7px;
+    width: 13%;
+    border-radius: 20px;
+    margin: 20px 0 0 85%;
+
+}
+
+
+
 
 }
